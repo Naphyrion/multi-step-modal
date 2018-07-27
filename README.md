@@ -78,7 +78,9 @@ a speicifc button or on the modal (which is easier).
 # FAQ
 
 ## How to reset step on popup close?
-This is not supported natively by the library, but you can do something like what is describe [here](https://github.com/ngzhian/multi-step-modal/issues/8#issuecomment-245878106).
+add the attribute reset-on-close = "true"
+should be
+<form class="modal multi-step" id="demo-modal" reset-on-close = "true">
 
 # License
 MIT
