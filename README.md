@@ -79,8 +79,7 @@ a speicifc button or on the modal (which is easier).
 
 ## How to reset step on popup close?
 add the attribute reset-on-close = "true"
-should be
-<form class="modal multi-step" id="demo-modal" reset-on-close = "true">
+should be <form class="modal multi-step" id="demo-modal" reset-on-close = "true">
 
 # License
 MIT
